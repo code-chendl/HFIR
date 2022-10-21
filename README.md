@@ -3,8 +3,7 @@ This is the implementation of our IPMC2022 paper "Joint Multimodal Sentiment Ana
 # Requirements
 We give the version of the python package we used, please refer to `envs\environment.yaml`
 # Data
-- **MSA-IR dataset:** For the protection of copyright, we cannot provide the origin tweets in MSA-IR. Instead, we provide the preprocessed data in the form of pickles.  
-  **Available at:** 
+- **MSA-IR dataset:** For the protection of copyright, we cannot provide the origin tweets in MSA-IR. Instead, we provide the preprocessed data in the form of pickles. Available at:  
 
 百度网盘：
  ```
