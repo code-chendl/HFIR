@@ -6,6 +6,13 @@ This is the implementation of our IPMC2022 paper "Joint Multimodal Sentiment Ana
   **Password:** 2022  
 - **Twitter-15/17 dataset:** We provide text data and annotations in `Twitter-1517\`.   
                              As for images, please download from the link: https://pan.baidu.com/s/1U_5T9nqng5cs-NnT8jOy5g?pwd=2022 (Password: 2022)
+# Code
+- **DeepSentiBank:** We utilize DeepSentiBank, pre-trained over 800K annotated images, to extract the mid-level features and Adjective Noun Pairs (ANPs).   
+                     Output from fc7 layer -> Mid-level visual representation;  
+                     Adjective Noun Pairs (ANPs) -> High-level visual features (along with tags extracted by VGG16, VGG19, Xception, Inception and Resnet);    
+                     Please download the source code and pre-trained model from the link below: https://www.ee.columbia.edu/ln/dvmm/vso/download/sentibank.html  
+
+
 # Citation
 If you find this code useful for your research, please consider citing:
 
