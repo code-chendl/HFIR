@@ -14,7 +14,7 @@ This is the implementation of our IPMC2022 paper "Joint Multimodal Sentiment Ana
 
 
 # Citation
-If you find this code useful for your research, please consider citing:
+If you find this code or data useful for your research, please consider citing:
 
 ```
 
