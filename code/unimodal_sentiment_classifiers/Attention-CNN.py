@@ -86,7 +86,6 @@ class LossHistory(keras.callbacks.Callback):
        
 
 # -------------------------构造基于迁移学习的VGG19模型---------------------------#
-# -------------------------------------------------------------------------------#
 def build_model(trainX,testX,trainY,testY,classNames,taskSavePath):
     #加载VGG19模型（不含有最后一层卷积层后的全连接层）
     baseModel = VGG19(weights="imagenet", include_top=False, input_tensor=Input(shape=(224, 224, 3))) 
