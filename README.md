@@ -4,10 +4,35 @@ This is the implementation of our IPMC2022 paper "Joint Multimodal Sentiment Ana
 We give the version of the python package we used, please refer to `envs\environment.yaml`
 # Data
 - **MSA-IR dataset:** For the protection of copyright, we cannot provide the origin tweets in MSA-IR. Instead, we provide the preprocessed data in the form of pickles.  
-  **Available at:** https://pan.baidu.com/s/1iG-1EawR7q9Qi0XMTGAidw?pwd=2022#list/path=%2F  
-  **Password:** 2022  
+  **Available at:** 
+
+百度网盘：
+ ```
+Link：https://pan.baidu.com/s/1iG-1EawR7q9Qi0XMTGAidw?pwd=2022#list/path=%2F
+Password：2022
+```
+
+Google drive:
+```
+
+```
+
+  
 - **Twitter-15/17 dataset:** We provide text data and annotations in `Twitter-1517\`.   
-                             As for images, please download from the link: https://pan.baidu.com/s/1U_5T9nqng5cs-NnT8jOy5g?pwd=2022 (**Password:** 2022)
+                             As for images, please download from the link below: 
+
+百度网盘：
+ ```
+Link：https://pan.baidu.com/s/1GP5Ysu_-C-gg_aX5T_j8Ng?pwd=2022 
+Password：2022
+```
+
+Google drive:
+```
+Link: https://drive.google.com/drive/folders/1hsHGGgQCw8w0CVLaGqkWTCxcDXVBFcA5?usp=sharing
+Password：2022
+```
+
 # Code
 - **DeepSentiBank:** We utilize DeepSentiBank, pre-trained over 800K annotated images, to extract the mid-level features and Adjective Noun Pairs (ANPs).   
                      Output from fc7 layer -> Mid-level visual representation;  
