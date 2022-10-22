@@ -46,8 +46,19 @@ Password：2022
 - **DeepSentiBank:** We utilize DeepSentiBank, pre-trained over 800K annotated images, to extract the mid-level features and Adjective Noun Pairs (ANPs).     
                      Output from fc7 layer -> Mid-level visual representation;  
                      Adjective Noun Pairs (ANPs) -> High-level visual features (along with tags extracted by VGG16, VGG19, Xception, Inception and Resnet);    
-                     Please download the source code and pre-trained model from the link below: https://www.ee.columbia.edu/ln/dvmm/vso/download/sentibank.html  
+                     Please download the source code and pre-trained model from the link below: https://www.ee.columbia.edu/ln/dvmm/vso/download/sentibank.html    
+- **GloVe:** We use the pre-trained GloVe model (glove.twitter.27B.200d) to encode word vectors. Available at:    
 
+百度网盘：
+ ```
+Link：https://pan.baidu.com/s/1GP5Ysu_-C-gg_aX5T_j8Ng?pwd=2022 
+Password：2022
+```
+
+Google drive:
+```
+Link: https://drive.google.com/drive/folders/1hsHGGgQCw8w0CVLaGqkWTCxcDXVBFcA5?usp=sharing
+```
 
 # Citation
 If you find this code or data useful for your research, please consider citing:
