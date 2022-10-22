@@ -33,16 +33,17 @@ Google drive:
 Link: https://drive.google.com/drive/folders/1hsHGGgQCw8w0CVLaGqkWTCxcDXVBFcA5?usp=sharing
 Password：2022
 ```
-
 # Instructions for manual annotation    
 (1)	***Txt_label*** represents the sentiment polarity conveyed by textual description. Each text is given a label from the set {negative (labeled as -1), neutral (0), positive (1)}.    
 (2)	***Img_label*** represents the sentiment polarity conveyed by visual content. Each image is given a label from the set {negative (-1), neutral (0), positive (1)}.    
 (3)	***Multi_label*** represents the sentiment polarity conveyed by the whole image-text post. Each multimodal tweet is given a label from the set {negative (-1), neutral (0), positive (1)}.       
 (4)	***Cor_label*** represents the information relevance between an image and its corresponding text. Each multimodal tweet is given a label from the set {relevant (labeled as y), irrelevant (n)}.    
-Note that, because Web users may post tweets without the restriction on image-text correlation, text and image in a message are not necessarily assigned the same sentiment label.    
+- Note that, because Web users may post tweets without the restriction on image-text correlation, text and image in a message are not necessarily assigned the same sentiment label.  
+
+- ***One-hot encoding*** {positive: [1 0 0], neutral: [0 1 0], negative: [0 0 1]; irrelevant: [1 0], relevant: [0 1]}
 
 # Code
-- **DeepSentiBank:** We utilize DeepSentiBank, pre-trained over 800K annotated images, to extract the mid-level features and Adjective Noun Pairs (ANPs).   
+- **DeepSentiBank:** We utilize DeepSentiBank, pre-trained over 800K annotated images, to extract the mid-level features and Adjective Noun Pairs (ANPs).     
                      Output from fc7 layer -> Mid-level visual representation;  
                      Adjective Noun Pairs (ANPs) -> High-level visual features (along with tags extracted by VGG16, VGG19, Xception, Inception and Resnet);    
                      Please download the source code and pre-trained model from the link below: https://www.ee.columbia.edu/ln/dvmm/vso/download/sentibank.html  
