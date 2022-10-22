@@ -9,7 +9,7 @@ Or create an environment using `envs\environment.yaml` with conda
 
 百度网盘：
  ```
-Link：https://pan.baidu.com/s/1iG-1EawR7q9Qi0XMTGAidw?pwd=2022#list/path=%2F
+Link：https://pan.baidu.com/s/1iG-1EawR7q9Qi0XMTGAidw?pwd=2022
 Password：2022
 ```
 
@@ -51,7 +51,7 @@ Password：2022
 
 百度网盘：
  ```
-Link：https://pan.baidu.com/s/1GP5Ysu_-C-gg_aX5T_j8Ng?pwd=2022 
+Link: https://pan.baidu.com/s/1CFqUbVFmY92BrVR8a-wbuw?pwd=2022     
 Password：2022
 ```
 
