@@ -1,8 +1,8 @@
 # HFIR (Hybrid Fusion Based on Information Relevance)
 This is the implementation of our IPMC2022 paper "Joint Multimodal Sentiment Analysis Based on Information Relevance", including the source code and manually annotated datasets.
 # Requirements
-We give the version of the python package we used, please refer to `envs\versions.txt`   
-Or create an environment using `envs\environment.yaml` with conda  
+We give the version of the python package we used, please refer to `envs\versions.txt`.  
+Or create an environment using `envs\environment.yaml` with conda.  
 
 # Data
 - **MSA-IR dataset:** For the protection of copyright, we cannot provide the origin tweets in MSA-IR. Instead, we provide the preprocessed data in the form of pickles. Available at:  
