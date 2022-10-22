@@ -40,7 +40,7 @@ Password：2022
 (4)	***Cor_label*** represents the information relevance between an image and its corresponding text. Each multimodal tweet is given a label from the set {relevant (labeled as y), irrelevant (n)}.    
 - Note that, because Web users may post tweets without the restriction on image-text correlation, text and image in a message are not necessarily assigned the same sentiment label.  
 
-- ***One-hot encoding*** {positive: [1 0 0], neutral: [0 1 0], negative: [0 0 1]; irrelevant: [1 0], relevant: [0 1]}
+- ***One-hot encoding*** {positive: [1 0 0], neutral: [0 1 0], negative: [0 0 1]; relevant: [1 0], irrelevant: [0 1]}
 
 # Code
 - **DeepSentiBank:** We utilize DeepSentiBank, pre-trained over 800K annotated images, to extract the mid-level features and Adjective Noun Pairs (ANPs).     
