@@ -59,9 +59,9 @@ for i in range(0,len(cor_label_test)):
         a_elem=[]
         a_elem.append(a[i])
         #---------hyper-parameter settings--------------------------
-        t_ = np.power(np.array(t_elem), 0.63).astype(np.float32)
-        v_ = np.power(np.array(v_elem), 0.29).astype(np.float32)
-        a_ = np.power(np.array(a_elem), 0.08).astype(np.float32)
+        t_ = np.power(np.array(t_elem), 0.68).astype(np.float32)
+        v_ = np.power(np.array(v_elem), 0.12).astype(np.float32)
+        a_ = np.power(np.array(a_elem), 0.20).astype(np.float32)
         #------------------------------------------
         decision_f = t_ * v_ * a_ 
         decision_label= decision_f.argmax(axis=1)
@@ -78,9 +78,9 @@ for i in range(0,len(cor_label_test)):
         a_elem=[]
         a_elem.append(a[i])
         #---------hyper-parameter settings--------------------------
-        t_ = np.power(np.array(t_elem), 0.61).astype(np.float32)
-        v_ = np.power(np.array(v_elem), 0.35).astype(np.float32)
-        a_ = np.power(np.array(a_elem), 0.04).astype(np.float32)
+        t_ = np.power(np.array(t_elem), 0.54).astype(np.float32)
+        v_ = np.power(np.array(v_elem), 0.43).astype(np.float32)
+        a_ = np.power(np.array(a_elem), 0.03).astype(np.float32)
         #------------------------------------------
         decision_f = t_ * v_ * a_ 
         decision_label= decision_f.argmax(axis=1)
