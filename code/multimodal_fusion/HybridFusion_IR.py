@@ -78,7 +78,7 @@ cor_label_test = cor_model.predict(multi_arr) #Determine whether the text and im
 
 
 #--------------load the pre-trained intermediate fusion-based component-----------------------
-IFModelPath="/gpfs/share/home/HFIR/BestModel/"+'INTER_TFN_uncor_256256_74.h5'
+IFModelPath="/gpfs/share/home/HFIR/BestModel/"+'INTER_uncor_256256.h5'
 IF_model = load_model(IFModelPath,custom_objects={'TensorFusion': TensorFusion,'AttentionLayer': AttentionLayer})
 
 start_test =time.perf_counter()
