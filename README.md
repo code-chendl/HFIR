@@ -65,9 +65,14 @@ If you find this code or data useful for your research, please consider citing:
 
 ```
 
-@inproceedings{chen2022HFIR,
-    title = "Joint Multimodal Sentiment Analysis Based on Information Relevance",
-    author = "Danlei Chen and Wang Su and Peng Wu and Bolin Hua",
-    booktitle = "Information Processing & Management Conference 2022: IPMC 2022",
-    year = "2022"
+@article{chen2023joint,
+  title = {Joint multimodal sentiment analysis based on information relevance},
+  author = {Chen, Danlei and Su, Wang and Wu, Peng and Hua, Bolin},
+  journal = {Information Processing \& Management},
+  volume = {60},
+  number = {2},
+  pages = {103193},
+  year = {2023},
+  publisher = {Elsevier},
+  doi = {10.1016/j.ipm.2022.103193}
 }
