@@ -65,7 +65,7 @@ If you find this code or data useful for your research, please consider citing:
 
 ```
 
-@article{chen2023joint,
+@article{chen2023HFIR,
   title = {Joint multimodal sentiment analysis based on information relevance},
   author = {Chen, Danlei and Su, Wang and Wu, Peng and Hua, Bolin},
   journal = {Information Processing & Management},
