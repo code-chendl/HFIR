@@ -1,5 +1,5 @@
 # HFIR (Hybrid Fusion Based on Information Relevance)
-This is the implementation of our paper "Joint Multimodal Sentiment Analysis Based on Information Relevance", including the source code and manually annotated datasets.
+This is the implementation of our paper "Joint Multimodal Sentiment Analysis Based on Information Relevance"[<a href='https://www.sciencedirect.com/science/article/abs/pii/S0306457322002941?CMX_ID=&SIS_ID=&dgcid=STMJ_AUTH_SERV_PUBLISHED&utm_acid=268841898&utm_campaign=STMJ_AUTH_SERV_PUBLISHED&utm_in=DM325336&utm_medium=email&utm_source=AC_' >pdf</a>], including the source code and manually annotated datasets.
 # Requirements
 We give the version of the python package we used, please refer to `envs\versions.txt`.  
 Or create an environment using `envs\environment.yaml` with conda.  
